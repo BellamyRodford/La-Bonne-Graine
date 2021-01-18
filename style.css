@@ -1,6 +1,8 @@
 * {
     background-color: #F7F7F7;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -37,14 +39,25 @@ header {
     height: 80px;
     margin-top: 10px;
 }
-
-#sec-mission-statement {
-    height: 1000px;
-    background-color: aliceblue;
-    margin-top: 7%;
+#sec-mission-statment {
+    height: 2000px;
+    background-color: antiquewhite;
 }
 
-.mission-statement {
-    width: 50px;
+.mission-statment{
+    height: 600px;
+    width: 95%;
     background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+#instagram {
+    height: 500px;
+    background-color: aquamarine;
+}
+
+footer{
+    height: 200px;
 }
