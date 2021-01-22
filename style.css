@@ -1,46 +1,182 @@
 * {
-    background-color: #F7F7F7;
-    height: auto;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-header {
-    height: 100px;
-    width: auto;
-    background-color:white;
+
+body {
+    background-color: #F7F7F7;
 }
+
+
+
 
 #homepageimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 7%;
-    width: 50%;
+    width: 100%;
+    height: auto;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
+#home-page-text{
+    display: flex;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 3%;
+    font-size:  200%;
+    justify-content: center
+}
+
+/* trust badge section styling */
+
 #trust-badge {
-    height: 250px;
+    height: auto;
     width: auto;
     background-color:white;
     margin-top: 7%;
 }
 
+.trust-img{
+    width: 13%;
+    margin-left: 50px;
+    background-color: blue;
+}
+
+#id-trust-img-div{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    width: 94%;
+}
+
+#trust-text{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-evenly;
+    margin-left: 13px;
+    font-family: 'century gothic';
+    font-size: small;
+}
+
+#paie{
+    margin-right: 13px;
+}
+/* product section styling */
+
 #product-feed {
-    height: 1100px;
+    height: 100%;
     margin-top: 7%;
 }
 
 .product {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: peru;
-    text-align: center;
-    height: 80px;
+    height: 99px;
     margin-top: 10px;
+    font-family: 'century gothic';
+    color:white;
+    font-weight: bold;
 }
+
+#prod-1{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-2{
+    background-image: url(img/pexels-irina-iriser-1005711.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-3{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-4{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-5{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-6{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-7{
+    background-image: url(img/pexels-alleksana-4113887.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-8{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-9{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-10{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-11{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+#prod-12{
+    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.80;
+}
+
+
+
+
+.prod-text{
+    opacity: 1.5;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
 #sec-mission-statment {
-    height: 2000px;
+    margin-top: 7%;
     background-color: antiquewhite;
 }
 
@@ -48,9 +184,9 @@ header {
     height: 600px;
     width: 95%;
     background-color: black;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
 }
 
 #instagram {
