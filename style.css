@@ -33,40 +33,33 @@ body {
 #trust-badge {
     height: auto;
     width: auto;
-    background-color:white;
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 .trust-img{
-    width: 13%;
-    margin-left: 50px;
-    background-color: blue;
+    width: 25%;
 }
 
-#id-trust-img-div{
-    background-color: aqua;
-    display: flex;
-    justify-content: space-evenly;
-    width: 94%;
-}
 
-#trust-text{
-    display: flex;
-    background-color: aquamarine;
-    justify-content: space-evenly;
-    margin-left: 13px;
+.trust-text{
     font-family: 'century gothic';
-    font-size: small;
+    font-size: medium;
 }
 
-#paie{
-    margin-right: 13px;
+
+#trust-badge-{
+    display: flex;
+    padding-left:14%;
 }
+
 /* product section styling */
 
 #product-feed {
     height: 100%;
     margin-top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .product {
@@ -79,6 +72,7 @@ body {
     font-family: 'century gothic';
     color:white;
     font-weight: bold;
+    width: 600px;
 }
 
 #prod-1{
@@ -96,28 +90,28 @@ body {
 }
 
 #prod-3{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/pexels-pixabay-326082.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
 }
 
 #prod-4{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/pexels-fox-212324.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
 }
 
 #prod-5{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/pexels-iconcom-231019.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
 }
 
 #prod-6{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/gardening-tools-on-wooden-background-flat-lay-PSS7H7Q-1024x765.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
@@ -131,35 +125,35 @@ body {
 }
 
 #prod-8{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/pexels-olga-1153655.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
 }
 
 #prod-9{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/ZSS132_Sprouting_Broccoli_Seeds_11_1024x1024.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
 }
 
 #prod-10{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/pexels-shrutika-gupta-6330448.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
 }
 
 #prod-11{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/stock-flowers.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
 }
 
 #prod-12{
-    background-image: url(img/pexels-engin-akyurt-1435904.jpg);
+    background-image: url(img/Utah-gardening-supplies.jpg);
     background-size: cover;
     background-position: center;
     opacity: 0.80;
