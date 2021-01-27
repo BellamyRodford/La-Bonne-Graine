@@ -228,18 +228,33 @@ body {
     cursor: pointer;
     font-family: 'century gothic';
     font-weight: bold;
-  }
+}
 
 
-
-
-
+/* instagram section */
 
 
 
 #instagram {
-    height: 500px;
+    height: auto;
     background-color: aquamarine;
+}
+
+.insta-div{
+    padding-bottom: 2%;
+
+}
+
+.insta-imgs{
+    width: 11%;
+    margin-left: 7%;
+}
+
+#insta-text{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: xx-large;
+    padding-bottom: 5%;
 }
 
 footer{
