@@ -10,8 +10,6 @@ body {
 }
 
 
-
-
 #homepageimg{
     margin-top: 7%;
     width: 100%;
@@ -31,13 +29,15 @@ body {
 /* trust badge section styling */
 
 #trust-badge {
-    height: auto;
-    width: auto;
-    margin-top: 3%;
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    padding-left: 7%;
 }
 
 .trust-img{
-    width: 25%;
+    width: 23%;
 }
 
 
@@ -47,10 +47,6 @@ body {
 }
 
 
-#trust-badge-{
-    display: flex;
-    padding-left:14%;
-}
 
 /* product section styling */
 
@@ -60,13 +56,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .product {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: peru;
     height: 150px;
     margin-top: 10px;
     font-family: 'century gothic';
@@ -263,23 +260,10 @@ body {
     background-color: #242D43;
     display: flex;
     justify-content: space-evenly;
-    padding: 70px 0;
+    padding: 70px 10px;
     flex-wrap: wrap;
 }
 
-
-.inner-footer{
-    display: block;
-
-}
-
-.footer-sec-1{
- 
-}
-
-.footer-sec-1:last-child{
-    margin-right: 0;
-}
 
 .footer-text-1{
     color: white;
@@ -301,6 +285,4 @@ body {
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: xx-large;
-    display: block;
-    padding-bottom: 12%;
 }
