@@ -237,7 +237,6 @@ body {
 
 #instagram {
     height: auto;
-    background-color: aquamarine;
 }
 
 .insta-div{
@@ -259,34 +258,26 @@ body {
 
 /* footer section */
 
-footer{
-}
-
 #footer{
     width: 100%;
-    display: auto;
-    overflow: hidden;
+    background-color: #242D43;
+    display: flex;
+    justify-content: space-evenly;
     padding: 70px 0;
-    box-sizing: border-box;
-    background-color: #707070;
+    flex-wrap: wrap;
 }
 
 
-#inner-footer{
+.inner-footer{
     display: block;
-    margin: 0 auto;
-    width: 1100px;
-    height: 100%;
+
 }
 
-#footer-sec-1{
-    width: calc(21.6% - 20px);
-    margin-right: 10px;
-    float: left;
-    height: 100%;
+.footer-sec-1{
+ 
 }
 
-#footer-sec-1:last-child{
+.footer-sec-1:last-child{
     margin-right: 0;
 }
 
@@ -295,6 +286,21 @@ footer{
     font-family: 'Patrick Hand', cursive;
     font-size: larger;
     display: block;
-    width: 100%;
-    margin-bottom: 20px;
+    padding-bottom: 12%;
+}
+
+.footer-text-2{
+    color: white;
+    font-family: 'century gothic';
+    font-size: medium;
+    display: block;
+    padding-bottom: 9%;
+}
+
+.footer-text-3{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: xx-large;
+    display: block;
+    padding-bottom: 12%;
 }
