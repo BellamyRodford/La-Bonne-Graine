@@ -257,6 +257,44 @@ body {
     padding-bottom: 5%;
 }
 
+/* footer section */
+
 footer{
-    height: 200px;
+}
+
+#footer{
+    width: 100%;
+    display: auto;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background-color: #707070;
+}
+
+
+#inner-footer{
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+
+#footer-sec-1{
+    width: calc(21.6% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+
+#footer-sec-1:last-child{
+    margin-right: 0;
+}
+
+.footer-text-1{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: larger;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
 }
